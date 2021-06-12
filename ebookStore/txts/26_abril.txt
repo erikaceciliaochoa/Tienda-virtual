@@ -1,0 +1,29 @@
+onsubmit=""
+	x_AgregarCarrito(this.idproducto.value,
+	function(cade)
+	{
+		$('productos').innerHTML=cadena;
+	}
+	);
+return false
+
+============clases=================================
+clase.
+5-Subido multiple de imagenes script de visor de imagenes con js
+
+clase 27
+________________
+repaso general
+Ping pong de preguntas
+
+*BenditoGarage
+
+*libreria unfocus --->para tener el boton adelande y atras
+
+clase 29
+________________
+tema de debate a eleccion
+
+clase 30
+___________________-
+Presentacion de practicos

@@ -1,0 +1,29 @@
+ponetuaviso.com
+
+target=_self --> o un frame
+etiqueta <i frame with>
+hiden `para cda img.
+
+<img src>
+
+
+URL REWRITING
+_____________________________________
+.htaccess
+
+RewriteEngine ON
+Rewriterule ^productos/(+)/(+)    index.php?show=productos&id=$2;
+			$1  $2
+Cuando algo empiece con productos y /algo/algo
+
+ErrorDocument 404 redericciono al index.php o mensaje de error
+
+/index.php?show=detalle&id=1
+prodcutos/radio-con-cd/1
+
+/images/____ (con el barra en todo las inseciones con html
+
+empresasalud.ul)
+
+_________________________________________
+se prueba en forma remota, en hosting. 

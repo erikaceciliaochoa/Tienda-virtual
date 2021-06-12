@@ -1,0 +1,15 @@
+                      <div style='margin: 10px 10px 0px 10px;	float:left;	border: 2px solid #FFFFFF;
+
+                          background: url(fotos/{$registro["idproducto"]}c.jpg) no-repeat;
+                          background-position: center;
+                          width: 98px; '>
+                        {$imagen}
+                      </div>
+
+
+                      <div style='margin: 10px 0px 0px -110px;	float:left;	border: 2px solid #FF00FF; width: 98px;'>
+                         {$imagen}
+                      </div>
+
+
+http://www.prototypejs.org/api/position

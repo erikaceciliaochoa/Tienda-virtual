@@ -1,0 +1,86 @@
+body{
+  	margin:0;
+	padding:0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+/*	line-height: 1.5em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background: #2b1e1e;*/
+}
+
+h1 {
+  margin: 15px 0 0 15px;
+  font-size: 14px;
+  color: #6600CC;
+}
+
+form .inputbox  { width: 120px; margin-left: 10px; }
+
+p {
+  margin: 10;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+#content_login{
+     margin: 100 auto;
+     width: 500px;
+     margin-bottom: 100px;
+     border: solid 1px #999999;
+     background: #fff;
+}
+
+#content_input {
+  margin: 50 auto;
+  margin-left: 185px;
+  width: 300px;
+  border: #999 1px solid;
+  background: #FFF;
+}
+
+#content_input label {
+	display: block;
+	float: left;
+	width: 120px;
+	text-align: right;
+	padding: 4px;
+	color: #666;
+	font-weight: bold;
+}
+
+.button {
+text-align: right;
+}
+
+.conten_button{
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-right: auto;
+}
+
+.conten_m_err{
+  float: right;
+  margin-top: -30px;
+  margin-right: 50px;
+  /*background: #6699FF;*/
+}
+
+
+.mensaje_err{
+  /*height: 20px;
+  width: 350px;*/
+  text-align: center;
+  text-decoration: blink;
+  font-size: 16px;
+  color: #FF0000;
+}
+
+.img_lock{
+  /*border: thin;  */
+  float: right;
+  margin: -180px 340px;
+  /*background: transparent;*/
+}
+

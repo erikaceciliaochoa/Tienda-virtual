@@ -1,0 +1,27 @@
+http://www.forosdelweb.com/f18/configuraci-n-php-designer-2007-a-438004/
+
+yo trabajo con XAMPP y PHP desigmer 2007 personal y ningun problema.
+
+link: XAMPP
+
+si es que es asi, te abre un html raro de esos. De todas formas no te recomiendo hacerlo asi, tu solo usa php editor para programar, para probarlo abre una ventana de tu navegador y pon:
+
+http://localhost/
+http://127.0.0.1/
+
+asi podras ver como va tu pagina.
+
+
+Coloca los archivos PHP en la carpeta "htdocs" que se encuentra dentro 
+de la carpeta "XAMMP" en la unidad C:. 
+La ruta del archivo es "C:\xampp\htdocs" para tu servidor Web. 
+Asegúrate de que tus archivos PHP se guarden de esa forma. 
+Deben tener la extensión ".php". Abre un navegador Web en el 
+equipo de escritorio e introduce "localhost" en el espacio proporcionado. 
+El navegador abrirá una lista de los archivos almacenados en la 
+carpeta "htdocs" en tu computadora. Haz clic en el enlace de un archivo PHP 
+y ábrelo para ejecutar un script.
+
+Crea las carpetas que necesites para poner a prueba los archivos PHP 
+bajo la carpeta "htdocs". Si creas una carpeta llamada "scripts", usa 
+la dirección "localhost/scripts" para abrirlos en tu navegador.

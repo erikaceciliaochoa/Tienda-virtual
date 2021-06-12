@@ -1,0 +1,8 @@
+('id').move
+Effect.Parallel
+	Fade
+	Move
+
+livevalidation_ caston, otra aparte para el boton button.
+
+image_$registro["idproducto"]	

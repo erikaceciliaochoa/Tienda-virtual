@@ -1,0 +1,23 @@
+
+http://www.prototypejs.org/api/position#method-absolutize
+
+
+
+page
+______________________________________________________________-
+deprecated
+
+page(element) -> [Number, Number]
+
+Returns the X/Y coordinates of element relative to the viewport.
+______________________________________________________
+
+function moveTo(container, element){
+  Position.prepare();
+  container_y = Position.cumulativeOffset($(container))[1]
+  element_y = Position.cumulativeOffset($(element))[1]
+  new Effect.Scroll(container, {x:0, y:(element_y-container_y)});
+  return false;
+}
+
+where Position.cumulativeOffset($('target-id')) gives you an array with the absolute position of that element.

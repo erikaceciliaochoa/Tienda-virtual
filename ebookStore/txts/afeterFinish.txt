@@ -1,0 +1,10 @@
+Effect.Fade('imagen',{afterFinish:
+function()
+	{$('imagen').show();}
+		     }
+           );
+
+
+valores en "x" e "y"
+                                var pos = Object.inspect(Position.page($(\"productos\")));
+                                new Effect.Move(\"image_{$registro["idproducto"]}c.jpg\", {x: pos[0], y: pos[1], mode: \"relative\" });

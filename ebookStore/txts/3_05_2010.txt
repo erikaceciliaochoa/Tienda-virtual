@@ -1,0 +1,95 @@
+*subida de archivos.
+*Modificacion de los htaccess.
+	ejemplo mobiliarios/argentina/cordoba/.1 -->(esmarcarar urls)
+	en lugar de /prop.php?
+	
+	ejemplo: empresaludng.com.ar
+	Para el posicionamiento de google. Ayuda en la busqda. nro de edicion, noticia despues de la enfermedad.
+
+
+==:+=================================
+.carrizodental.com
+	fleaxajax
+
+scripstgeneral.js
+
+sajax-->no es oo
+
+body onload="" para las llamadas de las funciones.
+=====================================
+scripts/ajax.php
+
+
+__________Para q un script se ejecute si o si__________ porq el insert un html no garantiza su ejecucion_____ <img src="" with="1" heigth="1" onload="" />
+
+esto es con el innerhtml. si lo hago.
+
+robertgarcia.com.ar.
+
+flash lee xml pero lo debo ejecutar en php.
+
+swfobject -->para insert flash
+un div con un id y adentro el script
+
+=================================
+mysql_data_seek($registro,$posicion) -->(mueve el cursor, cuando tengo subcategorias y quiero volver a otra )
+mysql_close($link)
+mysql_num_rows($registro); para los listados saber hasta cuantos mostrar.
+===================================
+
+<?php
+ if(1):
+?>
+
+HTML
+
+<?php
+ endif:
+?>
+
+==================================
+cadena de texto fija, no puedo insertar variables.
+
+$x="php";
+$z='curso de {$x}';
+echo $z;
+	'curso de '.$x
+
+=================================
+
+las letras acentuadas se renderizan
+
+\t --> solo en codigo fuente.
+
+para pasar todo a base datos: 
+htmlentities($cadena, ENT_NOQUOTES,"ISO-8859-1");
+titulo del libro,apago el html por si el titulo tiene negrita, iso
+
+htmlspecialchars_decode($cadena, ENT_NOQUOTES);
+Cubre el espectro de los caracteres especiales que no cubre la anterior nueva version de php
+
+en una pagina charset iso.
+
+Puede ser una funcion remplazar caracteres.
+echo str_replace("\n","<br />",cadena);
+cadena buscada, porq la vas a buscar inicio, donde 
+
+=================================================================
+for(;;) -->para las categorias, vuelve 
+=============================================
+
+HEREDOC
+_____________________________
+$x=<<<Algo
+  <table border="1"> {$var}
+
+Algo; (cierre pegado al borde y algo lado no comertarios ni nada!)
+
+==================================
+httaccess error 400 no encuentra la pag
+403 no tiene acceso, no esta el index o index dañado,marcan una carpeta en mantenimiento (el servidor)
+error 500, siempre tiene q ver con la programacion,bucle inf, errores del sistema con el server
+errores del mantenimiento del servidor.
+
+Control de errores tmb con httaccess
+======================================================================

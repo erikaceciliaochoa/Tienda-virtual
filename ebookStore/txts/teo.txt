@@ -1,0 +1,33 @@
+<script src=""><script>
+
+===framework===para trabajar con efectos____________
+
+http://script.aculo.us/ (x)
+http://jquery.com/
+
+__________
+mootools
+unas librerias de google
+
+_________________________________________
+http://wiki.github.com/madrobby/scriptaculous/effect-appear
+github.com --> (libreria)effect.Fade(desaparece)
+ver a partir de dragable (colDerecha)
+
+show -- .visible
+hide -- .invisible
+
+Prototype ---> le suma toda la parte de efectos
+
+combination effects.
+effec.shrink --> añade el producto y se va al contador de productos.
+
+Menus desplegables -->effec.toggle
+eje:
+	
+	<a href"" en el onclick="effect.toggle('caja')">
+	div id=caja
+
+
+========================
+Tarea: Q desaparezca el nro y aparezca el otro

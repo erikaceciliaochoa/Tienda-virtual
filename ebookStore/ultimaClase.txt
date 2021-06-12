@@ -1,0 +1,5 @@
+index.php?idcategoria=1#listado
+<a name="listado"></a>
+<script src="__.php">
+
+webEssentials _editor para maquetacion.

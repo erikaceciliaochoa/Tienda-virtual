@@ -1,0 +1,54 @@
+Seguridad
+____________
+
+*Negacion de servicio: 
+
+	-un ciclo q lo recalga, muchas peticiones al mismo tiempo. sI un ip intenta acceder varias veces bloqueo esa ip. UN PROGRAMA INSTALADO EN EL SERVIDOR QUE CONTRO LA ESTO.
+
+*upload de script:
+	-Como totalcomander.
+	-se resuelve controlando las extensiones de los archivos. Nunca debe qdar el archivo original! si lo necesito hago una copia.
+	-controlar las extensiones con path, interpretes que hables de las extensiones.
+	-No puedo usar javascript para seguridad, lo desactivo en el navegador y ya no anda. SOLO ES PARA INDICAR AL USUARIO QUE TIENE Q IR HACIENDO.
+	-SPRINTF:
+		LIKE '%%s%'
+		%s-->un string
+			campo='%s'
+		%d-->va un digito un nro. Con esto lo fuerzo a que sea el tipo de dato que yo quiero.
+
+$sql="select * from productos
+	where idcategoria=%d AND precio>%d";
+
+$sql=sprintf($sql, $_GET["idcategoria"], $_GET["precio"]);
+frase, parametro1, parametro2
+
+$sql=vsprintf($sql,
+		array(
+			$_GET[],
+			$_GET[],
+		     )
+	     );
+
+Otros ejemplos: %f(toma ), %2d (solo dos digitos), %02d (sino hay nada pongo cero y si hay algo solo tomo 2 digitos)
+
+
+SAFE_OFF en OFF/ON
+________________________________________________________
+
+
+@unlink
+________________________________________________________
+3niveles de errores:	
+		    Notice
+		    Warning
+		    Error
+Apago con @ los errores asi el usuario no puede ver donde se esta produciendo el error(en una tabla x)
+Yo los puedo ver en el log.
+
+COOKIE
+--------------------------------------------------------
+parametros, tiempo q expira la cookie, dominio y carpeta en el q funciona.
+
+$_SERVER
+----------------------------------------------------
+Solo se puede leer, nose setea
