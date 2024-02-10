@@ -1,3 +1,5 @@
 # Tienda-virtual
- Herramientas utilizadas: PHP
-                          MySql
+ Herramientas utilizadas: 
+ --
+ -PHP
+ -MySql
